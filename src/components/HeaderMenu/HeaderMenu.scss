@@ -1,0 +1,44 @@
+.header-container {
+  position: absolute;
+  width: 40%;
+  right: 3rem;
+  .header-menu {
+    position: relative;
+    width: 80%;
+    height: 20rem;
+    list-style: none;
+    color: white;
+
+    &-item {
+      border: 3px white solid;
+      width: 100%;
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 4rem;
+      position: absolute;
+      backdrop-filter: blur(10px);
+
+      @for $i from 1 through 3 {
+        &:nth-child(#{$i}) {
+          top: $i * 5.5rem;
+        }
+      }
+      &:nth-child(even) {
+        left: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #home {
+    .header-container {
+      width: 80%;
+      bottom: 5rem;
+      right: 3.5rem;
+      .header-menu {
+        width: 100%;
+      }
+    }
+  }
+}
