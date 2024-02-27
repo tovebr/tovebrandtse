@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Code() {
   return (
     <section id='code'>

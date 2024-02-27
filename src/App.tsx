@@ -1,16 +1,16 @@
 import Home from './components/Home/Home';
-import Code from './components/Code/Code';
-import Art from './components/Art/Art';
-import Music from './components/Music/Music';
+import Section from './components/Section/Section';
+import { data } from './workSamples';
 import './App.scss';
 
 function App() {
+  const sections = Object.entries(data).map(([key, value]) => {
+    return <Section key={key} id={key} data={value} />;
+  });
   return (
     <>
       <Home />
-      <Code />
-      <Music />
-      <Art />
+      {sections}
     </>
   );
 }
