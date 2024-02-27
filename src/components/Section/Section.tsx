@@ -8,8 +8,16 @@ interface SectionProps {
 }
 
 function Section({ id, data }: SectionProps) {
-  const workSamples = data.workSamples.map((data, i) => {
-    return <WorkSample key={i} workSample={data} />;
+  const workSamples = data.workSamples.map((workSample, i) => {
+    return (
+      <>
+        <WorkSample
+          key={i}
+          workSample={workSample}
+          buttonText={data.about.buttonText}
+        />
+      </>
+    );
   });
 
   return <section id={id}>{workSamples}</section>;

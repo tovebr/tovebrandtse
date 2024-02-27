@@ -10,3 +10,22 @@ a {
   text-decoration: none;
   color: white;
 }
+
+button {
+  border: none;
+  color: white;
+  background: linear-gradient(
+    300deg,
+    rgb(214, 176, 176) 0 35%,
+    rgb(115, 191, 173) 66% 100%
+  );
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}

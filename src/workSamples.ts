@@ -3,42 +3,47 @@ export const data = {
     about: {
       header: 'These are some of my codeing-projects!',
       text: 'I use my own artwork as much as i can to make the projects more alive. These are all written in vanilla JavaScript, some of them has a sprinkle of bootstrap but  I take great pride in writing my own css for the most part.',
+      buttonText: 'View Code',
     },
     workSamples: [
       {
-        description: 'what to wear',
+        description:
+          'Photograph your wardrobe, upload it, and press a button to get a random outfit! This is the app that helps the user choose what to wear.',
         title: 'what to wear',
         url: 'https://github.com/tovebr/whattowear',
-        img: [
-          'https://github.com/tovebr/tovebrandtse/blob/main/src/assets/wtw-1.PNG?raw=true',
-          'https://github.com/tovebr/tovebrandtse/blob/main/src/assets/wtw-2.PNG?raw=true',
-          'https://github.com/tovebr/tovebrandtse/blob/main/src/assets/wtw-3.PNG?raw=true',
-          'https://github.com/tovebr/tovebrandtse/blob/main/src/assets/wtw-4.PNG?raw=true',
-          'https://github.com/tovebr/tovebrandtse/blob/main/src/assets/wtw-5.PNG?raw=true',
-        ],
+        img: 'https://github.com/tovebr/whattowear/assets/70133569/57605b06-65a6-48b4-8c41-2ee97aa42f43',
+        video:
+          'https://github.com/tovebr/whattowear/assets/70133569/ef853955-77c9-481a-9ed8-2da0e6d66b1c',
         tech: ['TypeScript', 'React Native', 'Firebase'],
       },
       {
-        description: 'made webshop, verry fun',
-        title: 'webshop',
-        url: 'https://github.com/tovebr/webshop',
+        description:
+          'The place to share and save your favourite colors and to be inspired by others! Create an account and preform superfun CRUD-operations and searches in the database! A fullstack project with node.js/express, mongoDB, React and Redux Toolkit.',
+        title: 'colorShare',
+        url: 'https://github.com/tovebr/colorShare',
         img: 'images/webshop.jpg',
+        video:
+          'https://user-images.githubusercontent.com/70133569/219844874-bcfbd1fa-6d20-42ba-98e2-11099feb2555.mp4',
 
-        tech: ['JavaScript', 'SASS', 'HTML'],
+        tech: ['React', 'Redux Toolkit', 'node.js/express', 'Mongo DB'],
       },
       {
-        description: 'cocktail search',
+        description:
+          'Search for your favourite cocktails and get the recipes. Save the ones you dislike so that you wont accidentally make them again! (superwierd function but it was part of an assignment so I did it)',
         title: 'coctailsearch',
         url: 'https://github.com/tovebr/cocktailsearch',
         img: 'https://github.com/tovebr/react-portfolio/blob/main/src/images/cocktails.jpg?raw=true',
         tech: ['React', 'CSS', 'Redux'],
       },
       {
-        description: 'using bootstrap, made quiz',
-        title: 'sherlock',
-        url: 'https://github.com/tovebr/bootstrap-study',
+        description:
+          'Every now and then the food in your fridge will go bad. Often due to forgetting it was there! With this application the user can list their foods and be alerted when it is soon to expire. The user can also be inspired by recipes based on the shortlived goods in the fridgez',
+        title: 'FridgeEase',
+        url: 'https://github.com/tovebr/fridgeease',
         img: 'images/sherlock.jpg',
-        tech: ['JavaScript', 'Bootstrap', 'CSS', 'HTML'],
+        video:
+          'https://user-images.githubusercontent.com/70133569/219574756-76ee8f33-3eb8-4110-aa8d-896c3627dc6d.mp4',
+        tech: ['React', 'Typescript', 'Redux Toolkit', 'SCSS', 'Firebase'],
       },
     ],
   },
@@ -46,6 +51,7 @@ export const data = {
     about: {
       header: 'My first profession',
       text: `I've been playing music practically all my life. The bass has been my closest companion for about 20 years now. I started my company in 2005 and have been working as a musician professionally long before that. Here are some records where you can here my play, I have also composed some of the songs!`,
+      buttonText: 'Listen',
     },
     workSamples: [
       {
@@ -75,6 +81,7 @@ export const data = {
     about: {
       header: 'For the Love of Images',
       text: 'I have always painted and been intrested in colors and shapes. In the spring of 2021 i finally bought myself a camera and started learning photoshop. Here are some of my creations, check out my instagram for more!',
+      buttonText: 'See more',
     },
     workSamples: [
       {

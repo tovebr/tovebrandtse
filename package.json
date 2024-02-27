@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-three/drei": "^9.97.6",
     "@react-three/fiber": "^8.15.16",
+    "dotenv": "^16.4.5",
     "install": "^0.13.0",
     "meshline": "^3.2.0",
     "npm": "^10.4.0",
