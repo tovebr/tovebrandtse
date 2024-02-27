@@ -10,7 +10,11 @@ function WorkSample({ workSample }: WorkSampleProps) {
     <div className='worksample'>
       <div>{workSample.title}</div>
       <div>{workSample.url}</div>
-      {workSample.img.length > 1 && <img src={`../../${workSample.img[0]}`} />}
+
+      {/* {typeof workSample.img === 'string' && <img className='' src={workSample.img} />}
+      {workSample.img instanceof Array && workSample.img.length > 0 && (
+        <img src={workSample.img[0]} />
+      )} */}
     </div>
   );
 }
